@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.header{
+    background-color: #d43f3f;
+    flex: 0 100%;
+}
+.aside1{
+    background-color: #5dcc5d;
+    flex: 1;
+    
+}
+.aside2{
+    background-color: #ff90bb;
+    flex: 1;
+}
+.section{
+    background-color: #72a3ff;
+    flex: 2;
+    height: 10em;
+}
+.footer{
+    background-color: #7b00bc;
+    flex: 1 100%; 
+}
